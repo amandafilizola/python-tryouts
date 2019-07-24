@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# coding: utf-8
+#coding: utf-8
 salarioPorHora = input("Quanto você ganha por hora?  ")
 horasTrabalhadas = input("Quantas horas você trabalha por mês?  ")
 
