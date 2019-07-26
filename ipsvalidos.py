@@ -28,7 +28,6 @@ for each in content:
     else:
         invalidos.append(each)
 
-
 #printando output
 with open('output.txt','w') as f:
     f.write("[Endereços Válidos]\n")
@@ -39,9 +38,6 @@ with open('output.txt','w') as f:
     for element in invalidos:
         f.write(element)
         f.write("\n")
-
-
-
 
 print("\n[Endereços Válidos]")
 for element in validos:
