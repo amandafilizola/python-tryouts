@@ -10,9 +10,9 @@ custoDeUmaLata = input("Qual o custo de uma lata? ")
 metrosPorLitro = input("A tinta consegue cobrir quanto metros por litro? ")
 
 #processamento
-quantosLitros = tamanho/metrosPorLitro;
-quantasLatas = math.ceil(float(quantosLitros)/float(litrosEmLata))
-custoDaTinta = quantasLatas*custoDeUmaLata
+quantosLitros = tamanho / metrosPorLitro
+quantasLatas = math.ceil(float(quantosLitros) / float(litrosEmLata))
+custoDaTinta = quantasLatas * custoDeUmaLata
 
 #output
 quantidade = "A quantidade total de latas será {} latas"

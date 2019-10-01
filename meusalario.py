@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 #coding: utf-8
+
 salarioPorHora = input("Quanto você ganha por hora?  ")
 horasTrabalhadas = input("Quantas horas você trabalha por mês?  ")
 
-salarioBruto = salarioPorHora*horasTrabalhadas;
+salarioBruto = salarioPorHora * horasTrabalhadas
 
-emIR = salarioBruto*0.11
-emINSS = salarioBruto*0.08
-emSindicato = salarioBruto*0.05
+emIR = salarioBruto * 0.11
+emINSS = salarioBruto * 0.08
+emSindicato = salarioBruto * 0.05
 
 salarioLiquido = salarioBruto - emIR - emINSS - emSindicato
 
