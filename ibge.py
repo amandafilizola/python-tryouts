@@ -8,5 +8,5 @@ with open('RedeUrbana.csv', 'r') as dados:
         reader = csv.reader(dados)
         next(reader, None)
         for registro in reader:
-            saida.write(f'{registro[3]}, {registro[4]}, {registro[5]}\n')
+            saida.write(f'{registro[3]}, {registro[4]}, {registro[5]}, {registro[7]}\n')
 
