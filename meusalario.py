@@ -4,7 +4,9 @@
 salarioPorHora = input("Quanto você ganha por hora?  ")
 horasTrabalhadas = input("Quantas horas você trabalha por mês?  ")
 
-salarioBruto = salarioPorHora * horasTrabalhadas
+print(salarioPorHora)
+print(horasTrabalhadas)
+salarioBruto = int(salarioPorHora) * int(horasTrabalhadas)
 
 emIR = salarioBruto * 0.11
 emINSS = salarioBruto * 0.08
